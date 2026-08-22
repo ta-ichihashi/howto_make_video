@@ -56,7 +56,7 @@ kdenliveで出力する単位は、部毎に分けられてますので、次の
 (section_chapter_cue)=
 ## チャプタ割の調査シート作成
 
-出力したmkvファイルは、VLCプレイや等で再生することができます。この動画を見ながら出演者のステージの開始時間を記録して頭出し時間のリストをExcelで作成します。blu-rayディスク再生時の頭出しとして最適な時刻を特定し、{ref}`table_subtitle_def` の表にE列 「チャプター区切り時刻」列を追加し（{numref}`table_chapter_def`）、そこへ特定した時刻を追記します。
+出力したmkvファイルは、VLCプレイや等で再生することができます。この動画を見ながら出演者のステージの開始時間を記録して頭出し時間のリストをExcelで作成します。blu-rayディスク再生時の頭出しとして最適な時刻を特定し、{ref}`table_subtitle_def` の表にD列 「チャプター区切り時刻」列を追加し（{numref}`table_chapter_def`）、そこへ特定した時刻を追記します。
 
 ```{list-table} 字幕+チャプター定義 "titles.csv" ファイル
 :header-rows: 2

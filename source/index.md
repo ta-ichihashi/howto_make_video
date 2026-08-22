@@ -30,6 +30,11 @@
   - Apache License 2.0
   - [githubサイトからダウンロード](https://github.com/justdan96/tsMuxer/releases)
   - [githubサイトからダウンロード](https://github.com/justdan96/tsMuxer/releases)
+* - [DVDStyler](https://dvdstyler.com/)
+  - DVDオーサリングソフトウェア
+  - GPL (GNU General Public License)
+  - `winget install AlexThuering.DVDStyler`
+  - `apt install dvdstyler`
 * - [scribus](https://www.scribus.net/)
   - DVD, Blu-ray のラベル製作に用いるDTPソフトウェア
   - GPL (GNU General Public License)
@@ -37,6 +42,9 @@
   - `apt install scribus`
 ```
 
+また、これらのソフトウェアを使ったファイルの流れは次のとおりです。
+
+![](assets/flowchart.png){align=center}
 
 ```{toctree}
 :maxdepth: 2
