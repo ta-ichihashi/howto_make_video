@@ -1,0 +1,20 @@
+[project]
+name = "howto_video_production"
+version = "0.1.0"
+description = "Video editing and DVD/Blu-ray production methods"
+authors = ["Takashi Ichihashi <ta.ichihashi@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+package-mode = false
+requires-python = ">=3.12"
+dependencies = [
+    "sphinx",
+    "myst-parser",
+    "shibuya",
+    "sphinx-markdown-tables",
+    "sphinxcontrib-mermaid",
+    "sphinxcontrib-youtube",
+    "sphinx-autobuild",
+    "sphinx-copybutton",
+    "sphinx-design"
+]

@@ -39,14 +39,13 @@ release = '第1版'
 extensions = [
     'myst_parser',
     'japanesesupport',
-    'docxsphinx',
+     # 'docxbuilder',
+    'sphinxcontrib.mermaid',
     'sphinx.ext.githubpages',
-    'sphinxcontrib.blockdiag',
-    'sphinxcontrib.seqdiag',
-    'sphinxcontrib.actdiag',
-    'sphinxcontrib.nwdiag',
     'sphinxcontrib.youtube',
-    'sphinxcontrib.applehelp'
+    'sphinxcontrib.applehelp',
+    'sphinx_copybutton',
+    'sphinx_design'
 ]
 
 source_suffix = {
@@ -77,20 +76,7 @@ nwdiag_fontpath = './source/assets/ipaexg.ttf'
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
-html_theme = 'sphinx_book_theme'
-# html_static_path = ['_static']
-html_sidebars = {
-    "**": [
-        "search-field.html",
-        "sbt-sidebar-nav.html"
-        ]
-}
-
-html_theme_options = {
-    "repository_url": "https://github.com/ta-ichihashi/howto_make_video",
-    "use_repository_button": True,
-    "home_page_in_toc": True,
-}
+html_theme = 'shibuya'
 
 myst_enable_extensions = [
     "amsmath",
@@ -110,26 +96,6 @@ myst_enable_extensions = [
     "substitution",
     "tasklist",
 ]
-
-docx_documents = [
-    ('index', 'howto_make_video.docx', {'title': 'Music method documents',
-     'creator': 'Takashi Ichihashi', 'subject': 'How to make music video', }, True),
-]
-
-docx_style = '_templates/template.docx'
-
-docx_coverpage = True
-docx_pagebreak_before_section = 1
-docx_pagebreak_after_table_of_contents = 0
-docx_table_options = {
-    'landscape_columns': 6,      #
-    'in_single_page': True,      #
-    'row_splittable': True,      #
-    'header_in_all_page': True,  #
-}
-
-
-# latex_docclass = {'manual': 'jsbook'}
 
 latex_elements = {
     # Latex figure (float) alignment
