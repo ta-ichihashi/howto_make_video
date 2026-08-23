@@ -192,14 +192,3 @@ latex_elements = {
 latex_show_urls = 'footnote'
 
 
-# for epub
-
-
-epub_title = project
-epub_author = author
-epub_basename = 'twincat_howto'
-epub_language = 'ja'
-epub_publisher = author
-# epub_identifier = u'http://ascii.asciimw.jp/books/books/detail/978-4-04-868629-7.shtml'
-epub_scheme = 'URL'
-epub_tocdepth = 3
