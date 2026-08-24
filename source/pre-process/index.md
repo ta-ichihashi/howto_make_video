@@ -53,6 +53,8 @@ Blu-rayにはDVDのようなタイトルを持たないため、連続した動�
 ::::{grid} 2
 :gutter: 1 1 2 3
 :::{grid-item} 
+:columns: 12 12 6 6
+
 ![](assets/mkvtoolnix_add_1st.png){align=center}
 :::
 :::{grid-item}  1つ目のMP4ファイルの追加
