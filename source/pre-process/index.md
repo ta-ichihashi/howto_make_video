@@ -51,44 +51,62 @@ Blu-rayにはDVDのようなタイトルを持たないため、連続した動�
 ### 手順
 
 ::::{grid} 2
+:gutter: 1 1 2 3
 :::{grid-item} 
 ![](assets/mkvtoolnix_add_1st.png){align=center}
 :::
 :::{grid-item}  1つ目のMP4ファイルの追加
+:columns: 12 12 6 6
 
 1. ソースファイルウィンドウ上で右クリックし、 **ファイルを追加( <u>A</u>)** を選びます。
 2. ファイル選択からmp4ファイルを選択します。
 :::
 :::{grid-item}
+:columns: 12 12 6 6
+
 ![](assets/mkvtoolnix_add_2nd.png){align=center}
 :::
 :::{grid-item}  2つ目のMP4ファイルの結合
+:columns: 12 12 6 6
 
 選択されたmp4ファイルが一覧されますので、ここに別のmp4ファイルを結合します。結合したいmp4を選んで右クリックし、**ファイルを追加結合する(<u>A</u>)** を選択します。
 :::
 :::{grid-item}
+:columns: 12 12 6 6
+
 ![](assets/mkvtoolnix_add_2nd_after.png){align=center}
 :::
 :::{grid-item} 2つ目のMP4ファイルを追加した状態
+:columns: 12 12 6 6
 
 追加結合されたファイルは、結合元ファイルのツリーの子として一覧されます。同様の方法で第1部～第4部のようにプログラム部構成毎に個別に出力したmp4ファイルをすべて結合してください。
 :::
 :::{grid-item}
+:columns: 12 12 6 6
+
 ![](assets/mkvtoolnix_add_ac3.png){align=center}
 :::
 :::{grid-item} AC-3ファイルの追加
+:columns: 12 12 6 6
 
 mp4ファイルに含まれる音声コーデックはAACですが、blu-rayには最大5.1チャンネルのサラウンド音声に対応したドルビー LABORATORIES（Dolby）の音声圧縮技術であるAC-3が使われています。kdenliveでレンダリングしたAC-3を同様に読み込みます。
 :::
 :::{grid-item}
+:columns: 12 12 6 6
+
 ![](assets/mkvtoolnix_add_ac3_after.png){align=center}
 :::
 :::{grid-item} AC-3についても同様にツリー状に結合します。
+:columns: 12 12 6 6
+
 :::
 :::{grid-item}
+:columns: 12 12 6 6
+
 ![](assets/mkvtoolnix_including.png){align=center}
 :::
 :::{grid-item} 下部の **トラック、チャプタ、タグ（<u>T</u>）** 不要なデータを削除します。
+:columns: 12 12 6 6
 
 * AAC音声コーデックはすべてチェックを外します。
 * グローバルタグは先頭の1つだけにします。
